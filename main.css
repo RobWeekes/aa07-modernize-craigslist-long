@@ -18,6 +18,7 @@ p.more {
 
 a {
   text-decoration: none;
+  color: #464646;
 }
 
 a:visited {
@@ -79,9 +80,69 @@ ul > li {
 }
 
 footer {
-  float: none;
-  /* or clear? */
+  clear: both;
 }
+
+footer .clfooter {
+  text-align: center;
+  border-top: 1px solid gray;
+  padding: 10px 0px;
+}
+
+.clfooter > li {
+  display: inline;
+  padding-right: 5px;
+}
+
+.ban::before {
+  content: '☮️';
+}
+
+.ban::after {
+  content: ' :)';
+}
+
+#query:focus {
+  background-color: aqua;
+}
+
+#query:hover {
+  background-color: aqua;
+}
+
+.cal {
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #333;
+  text-align: center;
+}
+
+td:hover {
+  background-color: lavender;
+}
+
+.past {
+  color: black;
+  opacity: .5;
+  cursor:not-allowed;
+}
+
+.today {
+  background-color: darkviolet;
+  color: white;
+}
+
+td a {
+  color: green;
+  font-weight: bold;
+}
+
+td a:hover {
+  color: green;
+}
+
 
 .homepage-search .querybox {
   border-top: 0;
