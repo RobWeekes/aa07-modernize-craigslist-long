@@ -6,8 +6,81 @@ p.more {
   display: none;
 }
 
+:root {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    background-color: whitesmoke;
+    color: #464646;
+}
+
 #logo {
   font-size: 2.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #800080;
+}
+
+a:hover {
+  color: #800080;
+  font-weight: bold;
+}
+
+a > span:hover {
+  color: #800080;
+  font-weight: bold;
+}
+
+ul {
+  padding: 0px;
+}
+
+ul > li {
+  list-style: none;
+}
+
+.page-container {
+  max-width: 1200px;
+}
+
+#leftbar {
+  float: left;
+  padding: 0px 30px;
+  box-sizing: border-box;
+  width: 25%;
+}
+
+#center {
+  float: left;
+  padding: 0px 30px;
+  box-sizing: border-box;
+  width: 50%;
+  border: 1px solid #464646;
+  border-radius: 10px;
+}
+
+#center > div {
+  float: left;
+  width: 33%;
+}
+
+#rightbar {
+  float: left;
+  padding: 0px 30px;
+  box-sizing: border-box;
+  width: 25%;
+}
+
+#topban h2 {
+  text-align: center;
+}
+
+footer {
+  float: none;
+  /* or clear? */
 }
 
 .homepage-search .querybox {
